@@ -1,10 +1,9 @@
-// import java.util.Scanner;
-
-// public class volumeOfEarth {
-//     public static void main(String[] args) {
-//         Scanner sc = new Scanner(System.in);
-//         int r = sc.nextInt();
-//         double volume = (4.0/3.0) * Math.PI * Math.pow(r,3);
-
+public class volumeOfEarth {
+    public static void main(String[] args) {
+        double radiusKm = 6378;
+        double volumeKm3 = (4.0 / 3) * Math.PI * Math.pow(radiusKm, 3);
+        double volumeMiles3 = volumeKm3 / Math.pow(1.6, 3);
+        System.out.println("The volume of earth in cubic kilometers is " + volumeKm3 + " and cubic miles is " + volumeMiles3);
+    }
     
-// }
+}
