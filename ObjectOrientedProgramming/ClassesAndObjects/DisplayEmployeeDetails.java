@@ -20,4 +20,4 @@ public class DisplayEmployeeDetails {
         DisplayEmployeeDetails emp1 = new DisplayEmployeeDetails("John", 101, 5000);
         emp1.display();
     }
-}
+}zz
